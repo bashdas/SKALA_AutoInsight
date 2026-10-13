@@ -26,6 +26,7 @@ def init_run(
     job_type: str | None = None,
     config: Mapping[str, Any] | None = None,
     tags: Sequence[str] | None = None,
+    mode: str | None = None,
 ) -> wandb.sdk.wandb_run.Run:
     """Initialize a W&B run using the project's shared defaults."""
     entity, project = project_path().split("/", maxsplit=1)
@@ -36,6 +37,7 @@ def init_run(
         job_type=job_type,
         config=dict(config or {}),
         tags=list(tags or []),
+        mode=mode,
     )
 
 

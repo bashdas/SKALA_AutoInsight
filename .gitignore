@@ -39,9 +39,11 @@ wandb/
 outputs/models/*
 outputs/figures/*
 outputs/submissions/*
+outputs/analysis/*
 !outputs/models/.gitkeep
 !outputs/figures/.gitkeep
 !outputs/submissions/.gitkeep
+!outputs/analysis/.gitkeep
 
 # Local guidance documents
 docs/project_workflow.md
