@@ -26,6 +26,7 @@ Python 가상환경을 만든 뒤 의존성을 설치합니다.
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+wandb login
 jupyter lab
 ```
 

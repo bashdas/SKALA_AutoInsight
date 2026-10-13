@@ -32,6 +32,8 @@ dist/
 *.log
 *.tmp
 *.temp
+wandb/
+.weave/
 
 # Generated project artifacts (keep directory structure)
 outputs/models/*
