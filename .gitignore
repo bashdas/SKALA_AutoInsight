@@ -40,3 +40,6 @@ outputs/submissions/*
 !outputs/models/.gitkeep
 !outputs/figures/.gitkeep
 !outputs/submissions/.gitkeep
+
+# Local guidance documents
+docs/project_workflow.md
