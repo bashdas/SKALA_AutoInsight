@@ -18,8 +18,6 @@ KOSPI 지수와 건강식품 지수의 D+3 상승 가능성을 예측하는 다�
 └── src/                # 재사용 가능한 분석 코드
 ```
 
-전체 프로젝트 진행 순서는 [`docs/project_workflow.md`](docs/project_workflow.md)에서 확인할 수 있습니다.
-
 ## 실행 방법
 
 Python 가상환경을 만든 뒤 의존성을 설치합니다.
